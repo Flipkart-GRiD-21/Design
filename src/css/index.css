@@ -1,0 +1,243 @@
+/*Font external*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+
+/*Anchor link */
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #157ee6;
+  text-decoration: none;
+}
+
+/*Navbar properties*/
+#navh {
+  background-color: #157ee6;
+  height: 55px;
+  color: white;
+}
+
+#navhome {
+  color: white;
+  margin-left: 180px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+#explore {
+  color: White;
+  margin-left: 180px;
+  font-family: "Roboto", sans-serif;
+  margin-top: -25px;
+  font-size: 15px;
+  font-weight: -201;
+}
+
+#navsearch {
+  width: 550px;
+  margin-top: 10px;
+  height: 35px;
+  border-radius: 2px;
+  font-size: 15px;
+  font-weight: 20px;
+}
+#navsearch::placeholder {
+  color: #626363;
+}
+
+#nsearchbo {
+  color: #157ee6;
+  background-color: white;
+  height: 35px;
+  width: 30px;
+  font-size: 20px;
+  padding-top: 10px;
+  margin-top: 10px;
+  margin-left: -12px;
+  font-weight: bold;
+}
+
+#loginnav {
+  margin-left: 180px;
+  height: 35px;
+  width: 120px;
+  color: #157ee6;
+  background-color: white;
+  font-weight: 500;
+  margin-top: 10px;
+  border-radius: 2px;
+}
+
+/* Dropdown */
+.dropbtn {
+  background-color: #157ee6;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  margin-top: 10px;
+  height: 40px;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  width: 300px;
+  font-size: 15px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  color: white;
+}
+
+#cart {
+  color: white;
+  margin-left: 10px;
+  font-weight: 700;
+  padding-top: 5px;
+}
+
+/*Top*/
+
+.topimm {
+  margin-right: 30px;
+}
+
+.topim {
+  width: 100px;
+  height: 100px;
+}
+
+.catt {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: scroll;
+  margin: auto;
+  width: 80%;
+}
+
+/*Bottom*/
+.newad {
+  margin: auto;
+  width: 100%;
+}
+
+/*Meida query*/
+@media screen and (max-width: 1388px) {
+  #loginnav {
+    margin-left: 80px;
+  }
+}
+
+@media screen and (max-width: 1290px) {
+  #loginnav {
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 1240px) {
+  #navsearch {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 996px) {
+  #navsearch {
+    width: 100px;
+  }
+}
+@media screen and (max-width: 800px) {
+  #navhome {
+    margin-left: 80px;
+  }
+  #explore {
+    margin-left: 80px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  #navhome {
+    margin-left: 0px;
+  }
+  #explore {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 612px) {
+  #navsearch {
+    margin-top: 60px;
+    margin-left: -100px;
+    width: 300px;
+  }
+  #nsearchbo {
+    margin-top: 60px;
+  }
+  #navh {
+    height: 120px;
+  }
+  #navhome {
+    margin-top: -40px;
+  }
+  #explore {
+    margin-top: -20px;
+  }
+  #loginnav {
+    margin-left: -230px;
+  }
+}
+
+@media screen and (max-width: 456px) {
+  .dropbtn {
+    visibility: hidden;
+    width: 0px;
+  }
+}
+
+@media screen and (max-width: 368px) {
+  #navsearch {
+    width: 200px;
+  }
+  #loginnav {
+    margin-left: -130px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .carousel img {
+    height: 200px;
+  }
+}
